@@ -1,0 +1,945 @@
+===============================================
+Installer
+Log creation : Thu Dec 18 17:53:56 SAST 2014
+Operator : jboss
+===============================================
+Dec 18, 2014 5:53:58 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Dec 19 13:29:36 SAST 2014
+Operator : jboss
+===============================================
+Dec 19, 2014 1:29:37 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Dec 19 13:38:06 SAST 2014
+Operator : jboss
+===============================================
+Dec 19, 2014 1:38:08 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jan 06 12:40:39 SAST 2015
+Operator : jboss
+===============================================
+Jan 06, 2015 12:40:41 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jan 06 13:23:27 SAST 2015
+Operator : jboss
+===============================================
+Jan 06, 2015 1:23:29 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jan 06 13:37:12 SAST 2015
+Operator : jboss
+===============================================
+Jan 06, 2015 1:37:14 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jan 14 15:24:54 SAST 2015
+Operator : jboss
+===============================================
+Jan 14, 2015 3:24:56 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jan 20 13:00:20 SAST 2015
+Operator : jboss
+===============================================
+Jan 20, 2015 1:00:22 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jan 20 13:09:06 SAST 2015
+Operator : jboss
+===============================================
+Jan 20, 2015 1:09:08 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Jan 23 17:04:43 SAST 2015
+Operator : jboss
+===============================================
+Jan 23, 2015 5:04:45 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Jan 26 17:31:03 SAST 2015
+Operator : jboss
+===============================================
+Jan 26, 2015 5:31:05 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Jan 26 18:57:06 SAST 2015
+Operator : jboss
+===============================================
+Jan 26, 2015 6:57:08 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jan 28 15:23:03 SAST 2015
+Operator : jboss
+===============================================
+Jan 28, 2015 3:23:05 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Jan 29 12:52:57 SAST 2015
+Operator : jboss
+===============================================
+Jan 29, 2015 12:52:59 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Feb 05 12:03:54 SAST 2015
+Operator : jboss
+===============================================
+Feb 05, 2015 12:03:57 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 20 12:43:40 SAST 2015
+Operator : jboss
+===============================================
+Feb 20, 2015 12:43:42 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Feb 24 14:23:33 SAST 2015
+Operator : jboss
+===============================================
+Feb 24, 2015 2:23:36 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Mar 10 12:46:28 SAST 2015
+Operator : jboss
+===============================================
+Mar 10, 2015 12:46:30 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Mar 18 10:06:51 SAST 2015
+Operator : jboss
+===============================================
+Mar 18, 2015 10:06:53 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Mar 23 12:11:06 SAST 2015
+Operator : jboss
+===============================================
+Mar 23, 2015 12:11:08 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Apr 13 14:45:07 SAST 2015
+Operator : jboss
+===============================================
+Apr 13, 2015 2:45:09 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Apr 22 16:03:05 SAST 2015
+Operator : jboss
+===============================================
+Apr 22, 2015 4:03:07 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Jun 05 10:17:24 SAST 2015
+Operator : jboss
+===============================================
+Jun 05, 2015 10:17:26 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 10 13:01:12 SAST 2015
+Operator : jboss
+===============================================
+Jun 10, 2015 1:01:14 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 10 13:35:13 SAST 2015
+Operator : jboss
+===============================================
+Jun 10, 2015 1:35:15 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 14:41:33 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 2:41:35 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 15:04:49 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 3:04:51 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 15:10:26 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 3:10:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:08:53 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:08:55 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:26:55 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:26:57 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:38:35 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:38:37 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:39:17 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:39:19 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:51:26 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:51:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 16:54:39 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 4:54:41 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jun 23 17:10:16 SAST 2015
+Operator : jboss
+===============================================
+Jun 23, 2015 5:10:18 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 11:18:30 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 11:18:32 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 14:40:21 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 2:40:23 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 14:52:38 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 2:52:40 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 15:23:37 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 3:23:39 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 15:34:24 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 3:34:26 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 15:38:14 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 3:38:16 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 15:46:00 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 3:46:01 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 15:53:26 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 3:53:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:03:34 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:03:36 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:06:41 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:06:43 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:10:55 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:10:57 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:41:46 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:41:48 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:45:07 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:45:09 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:47:40 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:47:42 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:51:40 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:51:42 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 16:56:21 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 4:56:23 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 17:02:13 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 5:02:15 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jun 24 17:03:59 SAST 2015
+Operator : jboss
+===============================================
+Jun 24, 2015 5:04:01 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jul 21 16:05:57 SAST 2015
+Operator : jboss
+===============================================
+Jul 21, 2015 4:05:59 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Aug 11 08:21:40 SAST 2015
+Operator : jboss
+===============================================
+Aug 11, 2015 8:21:43 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Aug 26 16:33:53 SAST 2015
+Operator : jboss
+===============================================
+Aug 26, 2015 4:33:55 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Sep 11 14:56:17 SAST 2015
+Operator : jboss
+===============================================
+Sep 11, 2015 2:56:20 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 10:54:25 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 10:54:27 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 11:30:22 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 11:30:24 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 11:52:04 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 11:52:06 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 18:08:15 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 6:08:17 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 18:15:48 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 6:15:50 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 18:35:17 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 6:35:19 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Sep 13 23:21:37 SAST 2015
+Operator : jboss
+===============================================
+Sep 13, 2015 11:21:39 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Sep 16 15:54:27 SAST 2015
+Operator : jboss
+===============================================
+Sep 16, 2015 3:54:29 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Sep 16 16:51:09 SAST 2015
+Operator : jboss
+===============================================
+Sep 16, 2015 4:51:11 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Sep 16 17:26:40 SAST 2015
+Operator : jboss
+===============================================
+Sep 16, 2015 5:26:42 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Sep 16 17:50:03 SAST 2015
+Operator : jboss
+===============================================
+Sep 16, 2015 5:50:05 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Sep 16 17:51:47 SAST 2015
+Operator : jboss
+===============================================
+Sep 16, 2015 5:51:49 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Sep 29 16:59:49 SAST 2015
+Operator : jboss
+===============================================
+Sep 29, 2015 4:59:51 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Nov 02 12:49:12 SAST 2015
+Operator : jboss
+===============================================
+Nov 02, 2015 12:49:15 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Jan 04 13:27:03 SAST 2016
+Operator : jboss
+===============================================
+Jan 04, 2016 1:27:05 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Feb 11 09:59:11 SAST 2016
+Operator : jboss
+===============================================
+Feb 11, 2016 9:59:14 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 29 08:35:00 SAST 2016
+Operator : jboss
+===============================================
+Feb 29, 2016 8:35:02 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 29 08:39:04 SAST 2016
+Operator : jboss
+===============================================
+Feb 29, 2016 8:39:06 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 29 13:59:20 SAST 2016
+Operator : jboss
+===============================================
+Feb 29, 2016 1:59:22 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 29 14:03:18 SAST 2016
+Operator : jboss
+===============================================
+Feb 29, 2016 2:03:20 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 29 14:08:58 SAST 2016
+Operator : jboss
+===============================================
+Feb 29, 2016 2:09:00 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Mar 01 15:11:48 SAST 2016
+Operator : jboss
+===============================================
+Mar 01, 2016 3:11:50 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon May 30 16:15:44 SAST 2016
+Operator : jboss
+===============================================
+May 30, 2016 4:15:46 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue May 31 11:52:46 SAST 2016
+Operator : jboss
+===============================================
+May 31, 2016 11:52:48 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue May 31 14:21:50 SAST 2016
+Operator : jboss
+===============================================
+May 31, 2016 2:21:52 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Jun 23 11:26:29 SAST 2016
+Operator : jboss
+===============================================
+Jun 23, 2016 11:26:31 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Jun 23 13:39:39 SAST 2016
+Operator : jboss
+===============================================
+Jun 23, 2016 1:39:41 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Jul 06 09:18:52 SAST 2016
+Operator : jboss
+===============================================
+Jul 06, 2016 9:18:54 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Jul 26 14:52:08 SAST 2016
+Operator : jboss
+===============================================
+Jul 26, 2016 2:52:10 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Sep 23 14:13:25 SAST 2016
+Operator : jboss
+===============================================
+Sep 23, 2016 2:13:27 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Oct 05 13:52:05 SAST 2016
+Operator : jboss
+===============================================
+Oct 05, 2016 1:52:07 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Oct 05 14:14:31 SAST 2016
+Operator : jboss
+===============================================
+Oct 05, 2016 2:14:33 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Oct 05 14:20:19 SAST 2016
+Operator : jboss
+===============================================
+Oct 05, 2016 2:20:21 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Oct 06 12:17:57 SAST 2016
+Operator : jboss
+===============================================
+Oct 06, 2016 12:17:59 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Oct 06 12:53:37 SAST 2016
+Operator : jboss
+===============================================
+Oct 06, 2016 12:53:38 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Oct 06 13:40:17 SAST 2016
+Operator : jboss
+===============================================
+Oct 06, 2016 1:40:19 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Thu Oct 06 13:47:53 SAST 2016
+Operator : jboss
+===============================================
+Oct 06, 2016 1:47:55 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Oct 25 15:25:42 SAST 2016
+Operator : jboss
+===============================================
+Oct 25, 2016 3:25:44 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Nov 15 05:11:45 SAST 2016
+Operator : jboss
+===============================================
+Nov 15, 2016 5:11:47 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Nov 22 14:42:03 SAST 2016
+Operator : jboss
+===============================================
+Nov 22, 2016 2:42:06 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Dec 06 14:10:13 SAST 2016
+Operator : jboss
+===============================================
+Dec 06, 2016 2:10:15 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Dec 06 17:48:18 SAST 2016
+Operator : jboss
+===============================================
+Dec 06, 2016 5:48:20 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Tue Dec 06 18:09:28 SAST 2016
+Operator : jboss
+===============================================
+Dec 06, 2016 6:09:30 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Dec 07 15:27:26 SAST 2016
+Operator : jboss
+===============================================
+Dec 07, 2016 3:27:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Dec 12 18:19:26 SAST 2016
+Operator : jboss
+===============================================
+Dec 12, 2016 6:19:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Dec 12 18:23:37 SAST 2016
+Operator : jboss
+===============================================
+Dec 12, 2016 6:23:39 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Dec 21 09:23:05 SAST 2016
+Operator : jboss
+===============================================
+Dec 21, 2016 9:23:07 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 13:38:05 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 1:38:07 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 13:43:34 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 1:43:36 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 13:53:35 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 1:53:37 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:05:32 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:05:34 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:12:27 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:12:29 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:20:32 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:20:34 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:32:45 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:32:47 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:40:08 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:40:10 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:47:08 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:47:10 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:50:28 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:50:30 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:55:58 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:56:00 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 14:58:32 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 2:58:34 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 05 16:10:10 SAST 2017
+Operator : jboss
+===============================================
+Feb 05, 2017 4:10:12 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sat Feb 11 14:06:45 SAST 2017
+Operator : jboss
+===============================================
+Feb 11, 2017 2:06:47 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sat Feb 11 20:17:40 SAST 2017
+Operator : jboss
+===============================================
+Feb 11, 2017 8:17:42 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sat Feb 11 20:23:12 SAST 2017
+Operator : jboss
+===============================================
+Feb 11, 2017 8:23:14 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sat Feb 11 20:30:39 SAST 2017
+Operator : jboss
+===============================================
+Feb 11, 2017 8:30:41 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 12 17:29:00 SAST 2017
+Operator : jboss
+===============================================
+Feb 12, 2017 5:29:02 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Sun Feb 12 17:35:24 SAST 2017
+Operator : jboss
+===============================================
+Feb 12, 2017 5:35:26 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Feb 13 10:22:32 SAST 2017
+Operator : jboss
+===============================================
+Feb 13, 2017 10:22:34 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Feb 15 13:33:58 SAST 2017
+Operator : jboss
+===============================================
+Feb 15, 2017 1:34:00 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Feb 15 13:46:59 SAST 2017
+Operator : jboss
+===============================================
+Feb 15, 2017 1:47:01 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 13:35:42 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 1:35:44 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 14:00:26 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 2:00:28 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 14:05:35 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 2:05:37 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 14:11:22 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 2:11:24 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 14:12:18 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 2:12:20 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Feb 17 14:14:56 SAST 2017
+Operator : jboss
+===============================================
+Feb 17, 2017 2:14:58 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Fri Mar 24 16:30:57 SAST 2017
+Operator : jboss
+===============================================
+Mar 24, 2017 4:30:59 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Mon Apr 24 16:15:51 SAST 2017
+Operator : jboss
+===============================================
+Apr 24, 2017 4:15:53 PM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin
+===============================================
+Installer
+Log creation : Wed Apr 26 09:38:03 SAST 2017
+Operator : jboss
+===============================================
+Apr 26, 2017 9:38:05 AM org.rioproject.resolver.aether.ProjectWorkspaceReader <init>
+INFO: Pom file not found, working in /opt/rio-5.0-M3/bin

@@ -1,0 +1,243 @@
+INFO  15:46:07.441 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 15:46:07.858 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1099
+INFO  15:46:07.997 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  15:46:08.003 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1099/jndi/rmi://10.10.7.12:1099/jmxrmi
+DEBUG 15:46:08.069 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 15:46:08.075 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 15:46:08.075 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 15:46:08.082 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 15:46:08.142 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 15:46:08.147 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: 0a5adf4d-d81b-4167-bfa1-3a388c306601
+INFO  15:46:08.151 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  15:46:08.157 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  15:46:08.527 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 15:46:08.692 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1099
+INFO  15:46:08.696 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 15:46:08.898 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 15:46:08.905 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 15:46:08.923 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  15:46:08.924 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-26380@uat.travellinck.com
+DEBUG 15:46:08.936 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 418dbf09-e016-4bdd-ad74-6501efb387a8
+INFO  15:46:08.936 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 15:46:08.937 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 15:46:09.010 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@e1d0c213
+DEBUG 15:46:09.568 o.r.monitor.ServiceProvisioner - Registered new Cybernode-26380@uat.travellinck.com, count [1]
+DEBUG 15:46:09.579 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  15:46:09.580 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 15:46:13.939 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+INFO  15:46:16.517 o.r.monitor.ProvisionMonitorImpl - Deploying Operational String [com.travellinck]
+DEBUG 15:46:16.752 org.rioproject.monitor - Deployment [com.travellinck] using exporter JrmpExporter[0,null,null]
+DEBUG 15:46:16.801 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/WebServicePublisher] actual [0], pending [0], maintain [1]
+DEBUG 15:46:16.809 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/WebServicePublisher] ...
+DEBUG 15:46:16.814 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.Space] actual [0], pending [0], maintain [1]
+DEBUG 15:46:16.815 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.Space] ...
+DEBUG 15:46:16.821 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/TransactionManager] actual [0], pending [0], maintain [1]
+DEBUG 15:46:16.822 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/TransactionManager] ...
+DEBUG 15:46:16.829 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.TransactionUtility] actual [0], pending [0], maintain [1]
+DEBUG 15:46:16.831 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.TransactionUtility] ...
+DEBUG 15:46:16.839 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.ScheduledPublisher] actual [0], pending [0], maintain [1]
+DEBUG 15:46:16.842 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.ScheduledPublisher] ...
+DEBUG 15:46:16.852 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.space.admin.Query] actual [0], pending [0], maintain [1]
+INFO  15:46:16.852 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.TransactionUtility, instance:1]
+INFO  15:46:16.852 org.rioproject.cybernode.loader - Instantiating [com.travellinck/WebServicePublisher, instance:1]
+INFO  15:46:16.852 org.rioproject.cybernode.loader - Instantiating [com.travellinck/TransactionManager, instance:1]
+INFO  15:46:16.856 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.Space, instance:1]
+DEBUG 15:46:16.857 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.space.admin.Query] ...
+INFO  15:46:16.869 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.ScheduledPublisher, instance:1]
+INFO  15:46:16.882 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.space.admin.Query, instance:1]
+INFO  15:46:16.929 o.r.cybernode.ServiceBeanLoader - Resolve org.apache.river:mahalo:2.2.1 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+INFO  15:46:16.952 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:scheduling-components:1.1 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo]
+INFO  15:46:17.103 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/TransactionManager, instance:1], [groups: jboss], total services active: 1
+DEBUG 15:46:17.116 o.r.cybernode.ServiceAdvertiser - Added OperationalStringEntry [com.travellinck] for TransactionManager
+DEBUG 15:46:17.119 o.r.cybernode.ServiceAdvertiser - Added Host [10.10.7.12] for TransactionManager
+DEBUG 15:46:17.129 org.rioproject.cybernode.JSBDelegate - [com.travellinck/TransactionManager, instance:1]: advertised
+INFO  15:46:17.154 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/TransactionManager]
+INFO  15:46:17.172 org.rioproject.monitor.services - [com.travellinck/TransactionManager] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:46:17.682 o.r.cybernode.ServiceBeanLoader - Resolve org.dancres.blitz:blitz-service:2.2.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+INFO  15:46:17.937 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:transaction-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:46:18.059 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.ScheduledPublisher
+INFO  15:46:18.068 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.ScheduledPublisher, instance:1], [groups: jboss], total services active: 2
+INFO  15:46:18.077 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.ScheduledPublisher]
+INFO  15:46:18.083 org.rioproject.monitor.services - [com.travellinck/com.travellinck.ScheduledPublisher] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:46:18.624 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:web-services-binding-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:46:18.733 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.TransactionUtility
+INFO  15:46:18.746 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.TransactionUtility, instance:1], [groups: jboss], total services active: 3
+INFO  15:46:18.754 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.TransactionUtility]
+INFO  15:46:18.761 org.rioproject.monitor.services - [com.travellinck/com.travellinck.TransactionUtility] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+DEBUG 15:46:18.815 c.t.i.j.t.i.BasicTransactionUtility - Received handle to transaction manager: org.rioproject.associations.Association@6f208121
+INFO  15:46:18.816 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.TransactionUtility:1
+INFO  15:46:20.817 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:javaspaces-admin-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:46:20.898 c.t.c.w.p.AssociatedServicesPublisher - Injected 2 configuration parameter(s)
+DEBUG 15:46:20.970 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service WebServicePublisher
+INFO  15:46:21.012 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/WebServicePublisher, instance:1], [groups: jboss], total services active: 4
+INFO  15:46:21.013 c.t.c.w.p.AssociatedServicesPublisher - Starting web service publisher
+INFO  15:46:21.111 c.t.c.w.publishing.container - Starting
+DEBUG 15:46:21.137 c.t.c.w.publishing.container - Starting network listener: http-8088
+DEBUG 15:46:21.659 c.t.c.w.p.AssociatedServicesPublisher - Tracking service 'com.travellinck.space.admin.Query', currently PENDING
+DEBUG 15:46:21.676 org.rioproject.cybernode.JSBDelegate - [com.travellinck/WebServicePublisher, instance:1]: advertised
+INFO  15:46:21.683 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/WebServicePublisher]
+INFO  15:46:21.692 org.rioproject.monitor.services - [com.travellinck/WebServicePublisher] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+DEBUG 15:46:22.236 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.space.admin.Query
+INFO  15:46:22.267 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.space.admin.Query, instance:1], [groups: jboss], total services active: 5
+INFO  15:46:22.273 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.space.admin.Query]
+INFO  15:46:22.284 org.rioproject.monitor.services - [com.travellinck/com.travellinck.space.admin.Query] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:46:25.844 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.Space, instance:1], [groups: jboss], total services active: 6
+WARN  15:46:25.853 o.r.cybernode.ServiceAdvertiser - Unable to obtain the OperationalStringEntry for com.travellinck.Space
+WARN  15:46:25.855 o.r.cybernode.ServiceAdvertiser - Unable to obtain the Host entry for com.travellinck.Space
+DEBUG 15:46:25.863 org.rioproject.cybernode.JSBDelegate - [com.travellinck/com.travellinck.Space, instance:1]: advertised
+INFO  15:46:25.867 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.Space]
+INFO  15:46:25.870 org.rioproject.monitor.services - [com.travellinck/com.travellinck.Space] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:46:25.932 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.ScheduledPublisher:1
+DEBUG 15:46:25.934 c.t.i.j.s.s.i.PublishLaterRequestHandler - Starting
+DEBUG 15:46:25.937 c.t.i.j.s.s.i.PublishLaterRequestHandler - Looking for previously scheduled tasks (shutdown/crash recovery)
+INFO  15:46:25.939 c.t.i.j.s.s.i.PublishLaterRequestHandler - Started
+DEBUG 15:46:26.067 c.t.i.j.s.s.i.PublishLaterRequestHandler - Found ActivelyScheduledEventPublication 90c0412f-8a68-41b1-9fca-ef976db08fc2, re-scheduling 
+DEBUG 15:46:26.068 c.t.i.j.s.s.i.PublishLaterRequestHandler - Scheduling to publish after 86343870ms
+DEBUG 15:46:26.084 c.t.i.j.s.s.i.PublishLaterRequestHandler - Found ActivelyScheduledEventPublication 8ab65eae-cb3d-4cf3-9a0e-15150373bf1c, re-scheduling 
+DEBUG 15:46:26.084 c.t.i.j.s.s.i.PublishLaterRequestHandler - Scheduling to publish after 3172413916ms
+INFO  15:46:26.088 c.t.i.j.s.s.i.PublishLaterRequestHandler - Shutdown/crash recovery complete (recovered 2 schedules)
+DEBUG 15:46:26.088 c.t.i.j.s.s.i.PublishLaterRequestHandler - Start processing of Scheduling requests
+DEBUG 15:46:26.213 c.t.j.s.a.query.impl.QueryService - Received reference to space: org.rioproject.associations.AssociationProxySupport@740f6ba5
+INFO  15:46:26.214 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.space.admin.Query:1
+DEBUG 15:46:26.280 c.t.c.w.p.AssociatedServicesPublisher - Publishing service(s) for new association 'com.travellinck.space.admin.Query'
+DEBUG 15:46:26.292 c.t.c.w.p.p.i.ASMPublishableProxyFactory - Generating web service proxy for: interface com.travellinck.jini.space.admin.query.Query
+DEBUG 15:46:26.503 c.t.c.w.p.AssociatedServicesPublisher - Generated 1 web service adaptor(s) for: com.travellinck.space.admin.Query
+INFO  15:46:26.505 c.t.c.w.publishing.container - Publishing REST service ws.proxy.com.travellinck.jini.space.admin.query.Query@629efc6a to [http://0.0.0.0:8088/query]
+DEBUG 15:46:42.595 c.t.j.s.a.query.impl.QueryService - ENTRY: Scheduled: Schedule request: com.travellinck.approval.engine.impl.evaluation.liason.events.EvaluationResponseRequiredByReached [writeAt=Thu Jun 25 15:45:29 SAST 2015, writeAfterMS=null](scheduleRequestId=90c0412f-8a68-41b1-9fca-ef976db08fc2)
+INFO  15:46:42.595 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 1
+DEBUG 15:46:42.620 c.t.j.s.a.query.impl.QueryService - ENTRY: Scheduled: Schedule request: com.travellinck.approval.engine.impl.director.events.ApprovalRequestConclusionTimeReached [writeAt=Fri Jul 31 09:00:00 GMT+02:00 2015, writeAfterMS=null](scheduleRequestId=8ab65eae-cb3d-4cf3-9a0e-15150373bf1c)
+INFO  15:46:42.620 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 2
+DEBUG 15:46:44.038 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=228b262d-6493-4a49-9dd0-d80eb3283336, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=sms, contactChannel=sms:0826712564 (Work), organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=228b262d-6493-4a49-9dd0-d80eb3283336, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, messageExchangeId=65a65cf5-6563-4cdb-baf7-04b189c194ff, evaluationRequestId=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa)
+INFO  15:46:44.038 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.sms.ShortMessageEvaluation = 1
+DEBUG 15:46:44.114 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=f16ce90d-5ed4-4be9-aa34-39666cfca91e, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=http, contactChannel=http://uat.travellinck.com/approvalevaluation/resources/evaluation/7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=f16ce90d-5ed4-4be9-aa34-39666cfca91e, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)
+INFO  15:46:44.115 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.web.WebEvaluation = 1
+DEBUG 15:46:44.754 c.t.j.s.a.query.impl.QueryService - ENTRY: Short Message Exchange (Message Exchange ID: 65a65cf5-6563-4cdb-baf7-04b189c194ff, From: MobileUser (Name: TravelLinck Approval, Mobile Number: 44987), To: MobileUser (Name: Sgt.. Test Sergeant, Mobile Number: 27826712564), Sent Message: TRAVEL APPROVAL REQUEST
+G. Withey. 31 Jul 2015.
+Order 16231: asdsad, with:  asdasd, at: asd.
+1 flight. 
+Approx cost ZAR 944.92. 
+To Approve/Reject, reply "Yes 8ZI" or "No 8ZI" before 15:45, 25 Jun., Reply Expected: true, Reply ID: 8ZI, Reply Message: null, Relevant Until: Thu Jun 25 15:45:29 SAST 2015, Status: SENT)
+INFO  15:46:44.755 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.supplier.clickatell.adaptor.ShortMessageExchange = 1
+DEBUG 15:46:44.841 c.t.j.s.a.query.impl.QueryService - ENTRY: ApprovalProcessStateEntry  (id=4a314d28-08be-4970-a182-9a87d7679d68, startedBy=ApprovalRequest requiredConclusionTime=Fri Jul 31 09:00:00 GMT+02:00 2015, messageToEvaluator=, businessRequest=com.travellinck.transit._2008a.corporate.CorporateTravelRequest (instance), supportingInfo=1 item(s), organisation=http://www.travellinck.com, resubmissionOf=null, requestedBy=Mr. Graham Withey - goes by 'Graham' (uri:http://www.travellinck.com/person/42545) , Employed by http://www.travellinck.com, staff code (none), contact: [tel:0112364901 (Work), mailto:graham@travellinck.com], evaluationStrategy=Nominated evaluation strategy, nomination: AllOf[AnyOf[IndividualNomination: Sgt.. Test Sergeant (uri:http://www.travellinck.com/person/62024) , Employed by http://www.travellinck.com, staff code , contact: [mailto:graham@travellinck.com (Work), tel:0826712564 (Work), sms:0826712564 (Work)]]], clientUri=null (id=4a314d28-08be-4970-a182-9a87d7679d68, sourceProcess=null, sourceComponent=http://www.travellinck.com/corporate, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:23 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)4a314d28-08be-4970-a182-9a87d7679d68 for organisation http://www.travellinck.com
+INFO  15:46:44.842 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.director.state.ApprovalProcessStateEntry = 1
+DEBUG 15:46:44.912 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=mailto, contactChannel=mailto:graham@travellinck.com (Work), organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, mailId=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, evaluationRequestId=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa)
+INFO  15:46:44.912 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.email.EMailEvaluation = 1
+DEBUG 15:46:44.989 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, startedBy=EvaluationRequest organisation=http://www.travellinck.com, routing=http://www.travellinck.com, responseRequiredBy=Thu Jun 25 15:45:29 SAST 2015, evaluator=Sgt.. Test Sergeant (uri:http://www.travellinck.com/person/62024) , Employed by http://www.travellinck.com, staff code , contact: [mailto:graham@travellinck.com (Work), tel:0826712564 (Work), sms:0826712564 (Work)], approvalRequest.id=4a314d28-08be-4970-a182-9a87d7679d68, evaluationHistory=0 event(s) (id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceProcess=4a314d28-08be-4970-a182-9a87d7679d68, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:30 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)
+INFO  15:46:44.989 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.liason.LiaisonProcess = 1
+DEBUG 15:48:49.865 c.t.j.s.a.query.impl.QueryService - ENTRY: Scheduled: Schedule request: com.travellinck.approval.engine.impl.evaluation.liason.events.EvaluationResponseRequiredByReached [writeAt=Thu Jun 25 15:45:29 SAST 2015, writeAfterMS=null](scheduleRequestId=90c0412f-8a68-41b1-9fca-ef976db08fc2)
+INFO  15:48:49.865 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 1
+DEBUG 15:48:49.869 c.t.j.s.a.query.impl.QueryService - ENTRY: Scheduled: Schedule request: com.travellinck.approval.engine.impl.director.events.ApprovalRequestConclusionTimeReached [writeAt=Fri Jul 31 09:00:00 GMT+02:00 2015, writeAfterMS=null](scheduleRequestId=8ab65eae-cb3d-4cf3-9a0e-15150373bf1c)
+INFO  15:48:49.869 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 2
+DEBUG 15:48:49.937 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=228b262d-6493-4a49-9dd0-d80eb3283336, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=sms, contactChannel=sms:0826712564 (Work), organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=228b262d-6493-4a49-9dd0-d80eb3283336, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, messageExchangeId=65a65cf5-6563-4cdb-baf7-04b189c194ff, evaluationRequestId=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa)
+INFO  15:48:49.937 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.sms.ShortMessageEvaluation = 1
+DEBUG 15:48:50.005 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=f16ce90d-5ed4-4be9-aa34-39666cfca91e, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=http, contactChannel=http://uat.travellinck.com/approvalevaluation/resources/evaluation/7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=f16ce90d-5ed4-4be9-aa34-39666cfca91e, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)
+INFO  15:48:50.005 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.web.WebEvaluation = 1
+DEBUG 15:48:50.008 c.t.j.s.a.query.impl.QueryService - ENTRY: Short Message Exchange (Message Exchange ID: 65a65cf5-6563-4cdb-baf7-04b189c194ff, From: MobileUser (Name: TravelLinck Approval, Mobile Number: 44987), To: MobileUser (Name: Sgt.. Test Sergeant, Mobile Number: 27826712564), Sent Message: TRAVEL APPROVAL REQUEST
+G. Withey. 31 Jul 2015.
+Order 16231: asdsad, with:  asdasd, at: asd.
+1 flight. 
+Approx cost ZAR 944.92. 
+To Approve/Reject, reply "Yes 8ZI" or "No 8ZI" before 15:45, 25 Jun., Reply Expected: true, Reply ID: 8ZI, Reply Message: null, Relevant Until: Thu Jun 25 15:45:29 SAST 2015, Status: SENT)
+INFO  15:48:50.008 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.supplier.clickatell.adaptor.ShortMessageExchange = 1
+DEBUG 15:48:50.079 c.t.j.s.a.query.impl.QueryService - ENTRY: ApprovalProcessStateEntry  (id=4a314d28-08be-4970-a182-9a87d7679d68, startedBy=ApprovalRequest requiredConclusionTime=Fri Jul 31 09:00:00 GMT+02:00 2015, messageToEvaluator=, businessRequest=com.travellinck.transit._2008a.corporate.CorporateTravelRequest (instance), supportingInfo=1 item(s), organisation=http://www.travellinck.com, resubmissionOf=null, requestedBy=Mr. Graham Withey - goes by 'Graham' (uri:http://www.travellinck.com/person/42545) , Employed by http://www.travellinck.com, staff code (none), contact: [tel:0112364901 (Work), mailto:graham@travellinck.com], evaluationStrategy=Nominated evaluation strategy, nomination: AllOf[AnyOf[IndividualNomination: Sgt.. Test Sergeant (uri:http://www.travellinck.com/person/62024) , Employed by http://www.travellinck.com, staff code , contact: [mailto:graham@travellinck.com (Work), tel:0826712564 (Work), sms:0826712564 (Work)]]], clientUri=null (id=4a314d28-08be-4970-a182-9a87d7679d68, sourceProcess=null, sourceComponent=http://www.travellinck.com/corporate, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:23 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)4a314d28-08be-4970-a182-9a87d7679d68 for organisation http://www.travellinck.com
+INFO  15:48:50.089 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.director.state.ApprovalProcessStateEntry = 1
+DEBUG 15:48:50.157 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, startedBy=EvaluateRequest isRetry=false, evaluationRequest.id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa via=mailto, contactChannel=mailto:graham@travellinck.com (Work), organisation=http://www.travellinck.com, routing=http://www.travellinck.com (id=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, sourceProcess=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:31 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, mailId=4b399e78-e9da-4a37-8c8a-d6cf69777dd9, evaluationRequestId=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa)
+INFO  15:48:50.157 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.email.EMailEvaluation = 1
+DEBUG 15:48:50.230 c.t.j.s.a.query.impl.QueryService - ENTRY:  (id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, startedBy=EvaluationRequest organisation=http://www.travellinck.com, routing=http://www.travellinck.com, responseRequiredBy=Thu Jun 25 15:45:29 SAST 2015, evaluator=Sgt.. Test Sergeant (uri:http://www.travellinck.com/person/62024) , Employed by http://www.travellinck.com, staff code , contact: [mailto:graham@travellinck.com (Work), tel:0826712564 (Work), sms:0826712564 (Work)], approvalRequest.id=4a314d28-08be-4970-a182-9a87d7679d68, evaluationHistory=0 event(s) (id=7e521bf1-8d7d-4c4a-a040-69ed4c2fb1fa, sourceProcess=4a314d28-08be-4970-a182-9a87d7679d68, sourceComponent=null, traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43, createdAt=Wed Jun 24 15:45:30 SAST 2015), traceId=97e56341-2ef4-43c0-8586-b51e33f2bb43)
+INFO  15:48:50.231 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.liason.LiaisonProcess = 1
+DEBUG 15:53:22.771 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  15:53:22.776 o.r.monitor.ServiceProvisioner - Cybernode-26380@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  15:53:22.777 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  15:53:22.838 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.TransactionUtility:1
+WARN  15:53:22.843 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  15:53:22.845 o.r.associations.AssociationMgmt - [com.travellinck/com.travellinck.ScheduledPublisher:1] unadvertiseOnBroken : true
+DEBUG 15:53:22.847 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopping
+INFO  15:53:22.849 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopped
+DEBUG 15:53:22.850 o.r.c.TransientServiceStatementManager - com.travellinck.TransactionUtility is Inactive, Removed Records
+INFO  15:53:22.850 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.TransactionUtility, instance:1], total services active: 4
+ERROR 15:53:22.855 c.t.i.j.s.s.i.PublishLaterRequestHandler - Failed to process PublishLaterRequestEntry (rolling back transaction)
+net.jini.core.transaction.TransactionException: Search interrupted
+	at org.dancres.blitz.SpaceImpl.find(SpaceImpl.java:274) ~[na:na]
+	at org.dancres.blitz.SpaceImpl.take(SpaceImpl.java:294) ~[na:na]
+	at org.dancres.blitz.remote.BlitzServiceImpl.take(BlitzServiceImpl.java:481) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_07]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_07]
+	at net.jini.jeri.BasicInvocationDispatcher.invoke(BasicInvocationDispatcher.java:1126) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationDispatcher.dispatch(BasicInvocationDispatcher.java:608) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target$2.run(Target.java:487) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.export.ServerContext.doWithServerContext(ServerContext.java:108) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:484) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.access$000(Target.java:57) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target$1.run(Target.java:464) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.start.AggregatePolicyProvider$AggregateSecurityContext$2.run(AggregatePolicyProvider.java:527) ~[start-2.2.1.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_07]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:461) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:426) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.DgcRequestDispatcher.dispatch(DgcRequestDispatcher.java:210) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ServerConnectionManager$Dispatcher.dispatch(ServerConnectionManager.java:147) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.mux.MuxServer$1$1.run(MuxServer.java:244) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.start.AggregatePolicyProvider$AggregateSecurityContext$1.run(AggregatePolicyProvider.java:513) ~[start-2.2.1.jar:na]
+	at com.sun.jini.start.AggregatePolicyProvider$AggregateSecurityContext$1.run(AggregatePolicyProvider.java:513) ~[start-2.2.1.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_07]
+	at com.sun.jini.jeri.internal.mux.MuxServer$1.run(MuxServer.java:241) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.thread.ThreadPool$Worker.run(ThreadPool.java:136) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+	at com.sun.jini.jeri.internal.runtime.Util.__________EXCEPTION_RECEIVED_FROM_SERVER__________(Util.java:108) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Util.exceptionReceivedFromServer(Util.java:101) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.unmarshalThrow(BasicInvocationHandler.java:1303) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:832) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethod(BasicInvocationHandler.java:659) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invoke(BasicInvocationHandler.java:528) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at $Proxy87.take(Unknown Source) ~[na:na]
+	at org.dancres.blitz.remote.BlitzProxy.take(BlitzProxy.java:157) ~[na:na]
+	at org.dancres.blitz.remote.ConstrainableBlitzProxy.take(ConstrainableBlitzProxy.java:43) ~[na:na]
+	at com.travellinck.infrastructure.jini.space.scheduling.impl.PublishLaterRequestHandler$2.call(PublishLaterRequestHandler.java:127) ~[scheduling-components-1.1.jar:na]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+DEBUG 15:53:22.858 c.t.i.j.s.s.i.PublishLaterRequestHandler - Request processing complete (shutdown)
+INFO  15:53:22.871 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.ScheduledPublisher:1
+DEBUG 15:53:22.874 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopping
+INFO  15:53:22.874 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopped
+WARN  15:53:22.877 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:53:22.878 o.r.c.TransientServiceStatementManager - com.travellinck.ScheduledPublisher is Inactive, Removed Records
+INFO  15:53:22.878 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.ScheduledPublisher, instance:1], total services active: 2
+DEBUG 15:53:22.887 c.t.c.w.p.AssociatedServicesPublisher - Stopping
+INFO  15:53:22.887 c.t.c.w.publishing.container - Stopping
+INFO  15:53:22.897 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/WebServicePublisher:1
+WARN  15:53:22.906 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:53:22.952 o.r.c.TransientServiceStatementManager - WebServicePublisher is Inactive, Removed Records
+INFO  15:53:22.952 org.rioproject.cybernode.loader - Discarded [com.travellinck/WebServicePublisher, instance:1], total services active: 1
+INFO  15:53:22.963 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.space.admin.Query:1
+WARN  15:53:22.966 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:53:22.967 o.r.c.TransientServiceStatementManager - com.travellinck.space.admin.Query is Inactive, Removed Records
+INFO  15:53:22.967 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.space.admin.Query, instance:1], total services active: 0
+INFO  15:53:22.968 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
+DEBUG 15:53:22.991 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+DEBUG 15:53:22.993 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/WebServicePublisher] to remove 
+DEBUG 15:53:22.994 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.Space] to remove 
+DEBUG 15:53:22.995 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/TransactionManager] to remove 
+DEBUG 15:53:22.996 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.TransactionUtility] to remove 
+DEBUG 15:53:22.997 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.ScheduledPublisher] to remove 
+DEBUG 15:53:22.998 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.space.admin.Query] to remove 
+INFO  15:53:22.999 org.rioproject.monitor - OpStringManager [com.travellinck] terminated
+INFO  15:53:23.004 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  15:53:23.007 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  15:53:23.007 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor

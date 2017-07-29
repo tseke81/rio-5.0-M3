@@ -1,0 +1,96 @@
+INFO  11:26:38.187 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 11:26:38.626 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1100
+INFO  11:26:38.760 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  11:26:38.767 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1100/jndi/rmi://10.10.7.12:1100/jmxrmi
+DEBUG 11:26:38.839 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 11:26:38.844 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 11:26:38.845 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 11:26:38.857 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 11:26:38.921 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 11:26:38.928 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: 9556826e-ea3e-4d3c-9570-5b123fff02ef
+INFO  11:26:38.933 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  11:26:38.938 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  11:26:39.379 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 11:26:39.558 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1100
+INFO  11:26:39.561 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 11:26:39.815 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 11:26:39.826 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 11:26:39.849 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  11:26:39.849 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-29279@uat.travellinck.com
+DEBUG 11:26:39.861 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 88a5a5e4-309b-4220-903b-8a99c59e8512
+INFO  11:26:39.861 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 11:26:39.862 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 11:26:39.934 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@d5e796af
+DEBUG 11:26:40.496 o.r.monitor.ServiceProvisioner - Registered new Cybernode-29279@uat.travellinck.com, count [1]
+DEBUG 11:26:40.507 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  11:26:40.508 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 11:26:44.864 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+INFO  11:27:43.813 o.r.monitor.ProvisionMonitorImpl - Deploying Operational String [com.travellinck]
+WARN  11:27:49.571 o.r.monitor.ProvisionMonitorImpl - Deploying OperationalString [com.travellinck]
+java.lang.NullPointerException: null
+	at org.sonatype.aether.impl.internal.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:352) ~[na:na]
+	at org.rioproject.resolver.aether.AetherService.resolve(AetherService.java:231) ~[na:na]
+	at org.rioproject.resolver.aether.AetherResolver$ResolvingRequestTask.call(AetherResolver.java:304) ~[na:na]
+	at org.rioproject.resolver.aether.AetherResolver$ResolvingRequestTask.call(AetherResolver.java:287) ~[na:na]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) ~[na:1.7.0_07]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) ~[na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) ~[na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) ~[na:1.7.0_07]
+Wrapped by: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:252) ~[na:1.7.0_07]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:111) ~[na:1.7.0_07]
+	at org.rioproject.resolver.aether.AetherResolver.getClassPathFor(AetherResolver.java:122) ~[na:na]
+Wrapped by: org.rioproject.resolver.ResolverException: While trying to resolve org.dancres.blitz:blitz-proxy:2.2.2
+	at org.rioproject.resolver.aether.AetherResolver.getClassPathFor(AetherResolver.java:126) ~[na:na]
+	at org.rioproject.monitor.DeploymentVerifier.resolve(DeploymentVerifier.java:119) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.DeploymentVerifier.resolveOperationalStringService(DeploymentVerifier.java:94) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.DeploymentVerifier.verifyOperationalStringService(DeploymentVerifier.java:80) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.DeploymentVerifier.verifyOperationalString(DeploymentVerifier.java:68) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.DeploymentVerifier.verifyDeploymentRequest(DeploymentVerifier.java:60) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.ProvisionMonitorImpl.deploy(ProvisionMonitorImpl.java:531) ~[monitor-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.monitor.ProvisionMonitorAdminImpl.deploy(ProvisionMonitorAdminImpl.java:135) [monitor-service-5.0-M3.jar:5.0-M3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_07]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_07]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_07]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_07]
+	at net.jini.jeri.BasicInvocationDispatcher.invoke(BasicInvocationDispatcher.java:1126) [jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationDispatcher.dispatch(BasicInvocationDispatcher.java:608) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target$2.run(Target.java:487) [jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.export.ServerContext.doWithServerContext(ServerContext.java:108) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:484) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.access$000(Target.java:57) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target$1.run(Target.java:464) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.start.AggregatePolicyProvider$AggregateSecurityContext$2.run(AggregatePolicyProvider.java:527) [start-2.2.1.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_07]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:461) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.Target.dispatch(Target.java:426) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.runtime.DgcRequestDispatcher.dispatch(DgcRequestDispatcher.java:210) [jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ServerConnectionManager$Dispatcher.dispatch(ServerConnectionManager.java:147) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.jeri.internal.mux.MuxServer$1$1.run(MuxServer.java:244) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.start.AggregatePolicyProvider$AggregateSecurityContext$1.run(AggregatePolicyProvider.java:513) [start-2.2.1.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_07]
+	at com.sun.jini.jeri.internal.mux.MuxServer$1.run(MuxServer.java:241) [jsk-platform-2.2.1.jar:2.2.0]
+	at com.sun.jini.thread.ThreadPool$Worker.run(ThreadPool.java:136) [jsk-platform-2.2.1.jar:2.2.0]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+DEBUG 13:05:58.825 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  13:05:58.827 o.r.monitor.ServiceProvisioner - Cybernode-29279@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  13:05:58.828 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  13:05:58.829 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
+DEBUG 13:05:58.853 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+INFO  13:05:58.859 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  13:05:58.921 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  13:05:58.922 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor

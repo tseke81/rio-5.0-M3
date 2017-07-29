@@ -1,0 +1,232 @@
+INFO  14:00:33.684 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 14:00:34.102 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1099
+INFO  14:00:34.238 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  14:00:34.244 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1099/jndi/rmi://10.10.7.12:1099/jmxrmi
+DEBUG 14:00:34.309 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 14:00:34.314 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 14:00:34.315 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 14:00:34.322 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 14:00:34.386 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 14:00:34.390 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: 492df742-d994-431e-b312-0ebf77f856fd
+INFO  14:00:34.395 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  14:00:34.399 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  14:00:34.763 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 14:00:34.936 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1099
+INFO  14:00:34.940 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 14:00:35.142 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 14:00:35.149 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 14:00:35.167 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  14:00:35.167 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-23562@uat.travellinck.com
+DEBUG 14:00:35.179 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 9cbf1688-5116-43a4-8422-7afdc7c94b70
+INFO  14:00:35.180 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 14:00:35.180 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 14:00:35.246 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@5453ec1e
+DEBUG 14:00:35.806 o.r.monitor.ServiceProvisioner - Registered new Cybernode-23562@uat.travellinck.com, count [1]
+DEBUG 14:00:35.818 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:00:35.819 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 14:00:40.181 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+DEBUG 14:05:43.694 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@34f111f2
+DEBUG 14:05:43.709 o.r.m.peer.ProvisionMonitorPeer - Import OperationalStrings from: address=10.10.7.12, id=7812952897494181171
+DEBUG 14:05:43.732 o.r.m.peer.ProvisionMonitorPeer - No backup yet, try assignment
+DEBUG 14:05:43.738 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor backup info :
+	count=0, address=10.10.7.12, id=7812952897494181171
+DEBUG 14:05:43.741 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor updated info :
+	count=1, address=10.10.7.12, id=7812952897494181171, 
+DEBUG 14:05:43.924 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:05:43.924 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [2] ProvisionMonitor instances
+DEBUG 14:05:44.900 o.r.monitor.ServiceProvisioner - Registered new Cybernode-23894@uat.travellinck.com, count [2]
+INFO  14:11:20.768 o.r.monitor.ServiceProvisioner - Cybernode-23894@uat.travellinck.com @ 10.10.7.12 removed, count now [1]
+DEBUG 14:11:21.748 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Removed ProvisionMonitor at [10.10.7.12]
+DEBUG 14:11:21.749 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Backup has left the network, locate another backup
+DEBUG 14:11:21.749 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup located
+DEBUG 14:11:21.749 o.r.m.peer.ProvisionMonitorPeer - No backup OpStringManagers for removed peer
+DEBUG 14:11:30.810 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@758c9e84
+DEBUG 14:11:30.820 o.r.m.peer.ProvisionMonitorPeer - Import OperationalStrings from: address=10.10.7.12, id=8042246202541972200
+DEBUG 14:11:30.845 o.r.m.peer.ProvisionMonitorPeer - No backup yet, try assignment
+DEBUG 14:11:30.853 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor backup info :
+	count=0, address=10.10.7.12, id=8042246202541972200
+DEBUG 14:11:30.856 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor updated info :
+	count=1, address=10.10.7.12, id=8042246202541972200, 
+DEBUG 14:11:31.039 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:11:31.040 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [3] ProvisionMonitor instances
+DEBUG 14:11:32.041 o.r.monitor.ServiceProvisioner - Registered new Cybernode-26412@uat.travellinck.com, count [2]
+WARN  14:11:34.780 o.r.cybernode.ServiceConsumer - Updating ProvisionManager
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_07]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391) ~[na:1.7.0_07]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_07]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToSocketAddress(TcpEndpoint.java:678) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToHost(TcpEndpoint.java:608) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connect(TcpEndpoint.java:543) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager.connect(ConnectionManager.java:242) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager$ReqIterator.next(ConnectionManager.java:664) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicObjectEndpoint$1.next(BasicObjectEndpoint.java:370) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:708) ~[jsk-platform-2.2.1.jar:2.2.0]
+Wrapped by: java.rmi.ConnectException: connection refused or timed out to BasicObjectEndpoint[436d3847-0cf7-4ce5-b529-4708097bf9bf,TcpEndpoint[10.10.7.12:51818]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at net.jini.jeri.BasicInvocationHandler.wrapSafeIOException(BasicInvocationHandler.java:890) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:711) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethod(BasicInvocationHandler.java:659) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invoke(BasicInvocationHandler.java:528) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at $Proxy26.update(Unknown Source) ~[na:na]
+	at org.rioproject.monitor.ProvisionMonitorProxy.update(ProvisionMonitorProxy.java:141) ~[na:na]
+	at org.rioproject.cybernode.ServiceConsumer.updateMonitors(ServiceConsumer.java:375) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer.access$500(ServiceConsumer.java:67) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer$ComputeResourceObserver.update(ServiceConsumer.java:619) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.notifyResourceCapabilityChangeListeners(ComputeResource.java:521) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.access$000(ComputeResource.java:58) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource$ResourceCapabilityChangeNotifier.run(ComputeResource.java:816) [rio-lib-5.0-M3.jar:5.0-M3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:351) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+WARN  14:11:34.782 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [1] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[436d3847-0cf7-4ce5-b529-4708097bf9bf,TcpEndpoint[10.10.7.12:51818]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:11:35.784 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [2] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[436d3847-0cf7-4ce5-b529-4708097bf9bf,TcpEndpoint[10.10.7.12:51818]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:11:36.786 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [3] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[436d3847-0cf7-4ce5-b529-4708097bf9bf,TcpEndpoint[10.10.7.12:51818]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:11:37.787 o.r.cybernode.ServiceConsumer - Attempted reconnect after failure. Are we connected? false
+INFO  14:11:37.787 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [2] ProvisionMonitor instances
+INFO  14:11:59.930 o.r.monitor.ServiceProvisioner - Cybernode-26412@uat.travellinck.com @ 10.10.7.12 removed, count now [1]
+DEBUG 14:12:00.905 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Removed ProvisionMonitor at [10.10.7.12]
+DEBUG 14:12:00.905 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Backup has left the network, locate another backup
+DEBUG 14:12:00.905 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup located
+DEBUG 14:12:00.906 o.r.m.peer.ProvisionMonitorPeer - No backup OpStringManagers for removed peer
+DEBUG 14:12:27.027 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@7e52de0f
+DEBUG 14:12:27.044 o.r.m.peer.ProvisionMonitorPeer - Import OperationalStrings from: address=10.10.7.12, id=2870951653426318427
+DEBUG 14:12:27.071 o.r.m.peer.ProvisionMonitorPeer - No backup yet, try assignment
+DEBUG 14:12:27.077 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor backup info :
+	count=0, address=10.10.7.12, id=2870951653426318427
+DEBUG 14:12:27.081 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor updated info :
+	count=1, address=10.10.7.12, id=2870951653426318427, 
+DEBUG 14:12:27.248 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:12:27.249 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [3] ProvisionMonitor instances
+DEBUG 14:12:28.224 o.r.monitor.ServiceProvisioner - Registered new Cybernode-26669@uat.travellinck.com, count [2]
+INFO  14:12:34.130 o.r.monitor.ServiceProvisioner - Cybernode-26669@uat.travellinck.com @ 10.10.7.12 removed, count now [1]
+WARN  14:12:34.776 o.r.cybernode.ServiceConsumer - Updating ProvisionManager
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_07]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391) ~[na:1.7.0_07]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_07]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToSocketAddress(TcpEndpoint.java:678) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToHost(TcpEndpoint.java:608) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connect(TcpEndpoint.java:543) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager.connect(ConnectionManager.java:242) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager$ReqIterator.next(ConnectionManager.java:664) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicObjectEndpoint$1.next(BasicObjectEndpoint.java:370) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:708) ~[jsk-platform-2.2.1.jar:2.2.0]
+Wrapped by: java.rmi.ConnectException: connection refused or timed out to BasicObjectEndpoint[91e83c09-bf4f-4a2b-be28-ba8a7e6da3b0,TcpEndpoint[10.10.7.12:37442]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at net.jini.jeri.BasicInvocationHandler.wrapSafeIOException(BasicInvocationHandler.java:890) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:711) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethod(BasicInvocationHandler.java:659) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invoke(BasicInvocationHandler.java:528) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at $Proxy26.update(Unknown Source) ~[na:na]
+	at org.rioproject.monitor.ProvisionMonitorProxy.update(ProvisionMonitorProxy.java:141) ~[na:na]
+	at org.rioproject.cybernode.ServiceConsumer.updateMonitors(ServiceConsumer.java:375) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer.access$500(ServiceConsumer.java:67) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer$ComputeResourceObserver.update(ServiceConsumer.java:619) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.notifyResourceCapabilityChangeListeners(ComputeResource.java:521) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.access$000(ComputeResource.java:58) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource$ResourceCapabilityChangeNotifier.run(ComputeResource.java:816) [rio-lib-5.0-M3.jar:5.0-M3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:351) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+WARN  14:12:34.777 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [1] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[91e83c09-bf4f-4a2b-be28-ba8a7e6da3b0,TcpEndpoint[10.10.7.12:37442]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+DEBUG 14:12:35.112 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Removed ProvisionMonitor at [10.10.7.12]
+DEBUG 14:12:35.112 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: Backup has left the network, locate another backup
+DEBUG 14:12:35.113 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup located
+DEBUG 14:12:35.113 o.r.m.peer.ProvisionMonitorPeer - No backup OpStringManagers for removed peer
+WARN  14:12:35.779 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [2] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[91e83c09-bf4f-4a2b-be28-ba8a7e6da3b0,TcpEndpoint[10.10.7.12:37442]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:12:36.781 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [3] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[91e83c09-bf4f-4a2b-be28-ba8a7e6da3b0,TcpEndpoint[10.10.7.12:37442]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:12:37.782 o.r.cybernode.ServiceConsumer - Attempted reconnect after failure. Are we connected? false
+INFO  14:12:37.782 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [2] ProvisionMonitor instances
+WARN  14:12:37.786 o.r.cybernode.ServiceConsumer - Updating ProvisionManager
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_07]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_07]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391) ~[na:1.7.0_07]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_07]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToSocketAddress(TcpEndpoint.java:678) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connectToHost(TcpEndpoint.java:608) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.tcp.TcpEndpoint$ConnectionEndpointImpl.connect(TcpEndpoint.java:543) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager.connect(ConnectionManager.java:242) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.connection.ConnectionManager$ReqIterator.next(ConnectionManager.java:664) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicObjectEndpoint$1.next(BasicObjectEndpoint.java:370) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:708) ~[jsk-platform-2.2.1.jar:2.2.0]
+Wrapped by: java.rmi.ConnectException: connection refused or timed out to BasicObjectEndpoint[8aa2013c-6d21-4c5b-83ce-254d135ebfdf,TcpEndpoint[10.10.7.12:53066]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at net.jini.jeri.BasicInvocationHandler.wrapSafeIOException(BasicInvocationHandler.java:890) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethodOnce(BasicInvocationHandler.java:711) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invokeRemoteMethod(BasicInvocationHandler.java:659) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at net.jini.jeri.BasicInvocationHandler.invoke(BasicInvocationHandler.java:528) ~[jsk-platform-2.2.1.jar:2.2.0]
+	at $Proxy26.update(Unknown Source) ~[na:na]
+	at org.rioproject.monitor.ProvisionMonitorProxy.update(ProvisionMonitorProxy.java:141) ~[na:na]
+	at org.rioproject.cybernode.ServiceConsumer.updateMonitors(ServiceConsumer.java:375) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer.access$500(ServiceConsumer.java:67) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.cybernode.ServiceConsumer$ComputeResourceObserver.update(ServiceConsumer.java:619) [cybernode-service-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.notifyResourceCapabilityChangeListeners(ComputeResource.java:521) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource.access$000(ComputeResource.java:58) [rio-lib-5.0-M3.jar:5.0-M3]
+	at org.rioproject.system.ComputeResource$ResourceCapabilityChangeNotifier.run(ComputeResource.java:816) [rio-lib-5.0-M3.jar:5.0-M3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:351) [na:1.7.0_07]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178) [na:1.7.0_07]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110) [na:1.7.0_07]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603) [na:1.7.0_07]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_07]
+WARN  14:12:37.787 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [1] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[8aa2013c-6d21-4c5b-83ce-254d135ebfdf,TcpEndpoint[10.10.7.12:53066]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:12:38.789 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [2] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[8aa2013c-6d21-4c5b-83ce-254d135ebfdf,TcpEndpoint[10.10.7.12:53066]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:12:39.791 o.r.cybernode.ServiceConsumer - Recovering ProvisionManager Lease attempt retry count [3] java.rmi.ConnectException:connection refused or timed out to BasicObjectEndpoint[8aa2013c-6d21-4c5b-83ce-254d135ebfdf,TcpEndpoint[10.10.7.12:53066]]; nested exception is: 
+	java.net.ConnectException: Connection refused
+WARN  14:12:40.791 o.r.cybernode.ServiceConsumer - Attempted reconnect after failure. Are we connected? false
+INFO  14:12:40.792 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 14:13:43.790 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  14:13:43.791 o.r.monitor.ServiceProvisioner - Cybernode-23562@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  14:13:43.792 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  14:13:43.793 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
+DEBUG 14:13:43.822 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+WARN  14:13:43.830 o.r.event.BasicEventConsumer - EventLeaseManager, Unrecoverable Exception renewing Lease, dropping Lease renewal for Class: org.rioproject.monitor.ProvisionMonitorEvent, eventID: 2764185076071141340
+WARN  14:13:43.830 o.r.event.BasicEventConsumer - EventLeaseManager, Unrecoverable Exception renewing Lease, dropping Lease renewal for Class: org.rioproject.monitor.ProvisionMonitorEvent, eventID: 2764185076071141340
+WARN  14:13:43.830 o.r.event.BasicEventConsumer - EventLeaseManager, Unrecoverable Exception renewing Lease, dropping Lease renewal for Class: org.rioproject.monitor.ProvisionMonitorEvent, eventID: 2764185076071141340
+INFO  14:13:43.832 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  14:13:43.850 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  14:13:43.851 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor

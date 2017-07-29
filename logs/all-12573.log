@@ -1,0 +1,172 @@
+INFO  15:04:56.865 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 15:04:57.292 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1099
+INFO  15:04:57.436 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  15:04:57.443 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1099/jndi/rmi://10.10.7.12:1099/jmxrmi
+DEBUG 15:04:57.511 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 15:04:57.518 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 15:04:57.518 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 15:04:57.524 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 15:04:57.588 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 15:04:57.593 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: 7eaa45bd-8cc3-4f25-9781-8335a1bb2adf
+INFO  15:04:57.598 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  15:04:57.603 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  15:04:57.981 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 15:04:58.145 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1099
+INFO  15:04:58.149 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 15:04:58.359 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 15:04:58.367 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 15:04:58.385 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  15:04:58.386 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-12573@uat.travellinck.com
+DEBUG 15:04:58.399 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 8c8bc6ef-b733-479f-ba0e-eb5c076f6ab0
+INFO  15:04:58.400 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 15:04:58.400 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 15:04:58.477 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@c453a372
+DEBUG 15:04:59.037 o.r.monitor.ServiceProvisioner - Registered new Cybernode-12573@uat.travellinck.com, count [1]
+DEBUG 15:04:59.048 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  15:04:59.049 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 15:05:03.402 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+INFO  15:05:13.153 o.r.monitor.ProvisionMonitorImpl - Deploying Operational String [com.travellinck]
+DEBUG 15:05:13.400 org.rioproject.monitor - Deployment [com.travellinck] using exporter JrmpExporter[0,null,null]
+DEBUG 15:05:13.451 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/WebServicePublisher] actual [0], pending [0], maintain [1]
+DEBUG 15:05:13.459 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/WebServicePublisher] ...
+DEBUG 15:05:13.464 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.Space] actual [0], pending [0], maintain [1]
+DEBUG 15:05:13.466 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.Space] ...
+DEBUG 15:05:13.471 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/TransactionManager] actual [0], pending [0], maintain [1]
+DEBUG 15:05:13.473 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/TransactionManager] ...
+DEBUG 15:05:13.484 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.TransactionUtility] actual [0], pending [0], maintain [1]
+DEBUG 15:05:13.485 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.TransactionUtility] ...
+DEBUG 15:05:13.495 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.ScheduledPublisher] actual [0], pending [0], maintain [1]
+DEBUG 15:05:13.499 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.ScheduledPublisher] ...
+INFO  15:05:13.500 org.rioproject.cybernode.loader - Instantiating [com.travellinck/TransactionManager, instance:1]
+INFO  15:05:13.500 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.Space, instance:1]
+DEBUG 15:05:13.511 org.rioproject.monitor.services - ServiceElementManager.verify(): [com.travellinck/com.travellinck.space.admin.Query] actual [0], pending [0], maintain [1]
+INFO  15:05:13.512 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.TransactionUtility, instance:1]
+DEBUG 15:05:13.514 o.r.monitor.tasks.ProvisionTask - Allocating  [com.travellinck/com.travellinck.space.admin.Query] ...
+INFO  15:05:13.514 org.rioproject.cybernode.loader - Instantiating [com.travellinck/WebServicePublisher, instance:1]
+INFO  15:05:13.525 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.ScheduledPublisher, instance:1]
+INFO  15:05:13.529 org.rioproject.cybernode.loader - Instantiating [com.travellinck/com.travellinck.space.admin.Query, instance:1]
+INFO  15:05:13.575 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:web-services-binding-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+INFO  15:05:15.299 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:javaspaces-admin-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:05:15.749 c.t.c.w.p.AssociatedServicesPublisher - Injected 2 configuration parameter(s)
+DEBUG 15:05:15.923 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service WebServicePublisher
+INFO  15:05:15.973 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/WebServicePublisher, instance:1], [groups: jboss], total services active: 1
+INFO  15:05:15.974 c.t.c.w.p.AssociatedServicesPublisher - Starting web service publisher
+INFO  15:05:16.069 c.t.c.w.publishing.container - Starting
+DEBUG 15:05:16.102 c.t.c.w.publishing.container - Starting network listener: http-8088
+DEBUG 15:05:16.522 c.t.c.w.p.AssociatedServicesPublisher - Tracking service 'com.travellinck.space.admin.Query', currently PENDING
+DEBUG 15:05:16.542 org.rioproject.cybernode.JSBDelegate - [com.travellinck/WebServicePublisher, instance:1]: advertised
+INFO  15:05:16.555 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/WebServicePublisher]
+INFO  15:05:16.565 org.rioproject.monitor.services - [com.travellinck/WebServicePublisher] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:05:16.640 o.r.cybernode.ServiceBeanLoader - Resolve org.dancres.blitz:blitz-service:2.2.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:05:16.792 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.space.admin.Query
+INFO  15:05:16.816 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.space.admin.Query, instance:1], [groups: jboss], total services active: 2
+INFO  15:05:16.825 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.space.admin.Query]
+INFO  15:05:16.833 org.rioproject.monitor.services - [com.travellinck/com.travellinck.space.admin.Query] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:05:16.907 o.r.cybernode.ServiceBeanLoader - Resolve org.apache.river:mahalo:2.2.1 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+INFO  15:05:16.925 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:scheduling-components:1.1 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo]
+INFO  15:05:17.028 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/TransactionManager, instance:1], [groups: jboss], total services active: 3
+DEBUG 15:05:17.041 o.r.cybernode.ServiceAdvertiser - Added OperationalStringEntry [com.travellinck] for TransactionManager
+DEBUG 15:05:17.044 o.r.cybernode.ServiceAdvertiser - Added Host [10.10.7.12] for TransactionManager
+DEBUG 15:05:17.054 org.rioproject.cybernode.JSBDelegate - [com.travellinck/TransactionManager, instance:1]: advertised
+INFO  15:05:17.064 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/TransactionManager]
+INFO  15:05:17.079 org.rioproject.monitor.services - [com.travellinck/TransactionManager] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+INFO  15:05:17.674 o.r.cybernode.ServiceBeanLoader - Resolve com.travellinck.infrastructure:transaction-components:1.0 using these repositories [http://www.rio-project.org/maven2, https://repository.jboss.org/nexus/content/groups/public-jboss/, http://download.eclipse.org/rt/eclipselink/maven.repo, http://repo1.maven.org/maven2/, http://10.10.7.12:9010]
+DEBUG 15:05:17.978 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.ScheduledPublisher
+INFO  15:05:17.986 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.ScheduledPublisher, instance:1], [groups: jboss], total services active: 4
+INFO  15:05:17.993 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.ScheduledPublisher]
+INFO  15:05:17.998 org.rioproject.monitor.services - [com.travellinck/com.travellinck.ScheduledPublisher] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+DEBUG 15:05:18.518 org.rioproject.cybernode.JSBDelegate - Set EventHandler [org.rioproject.event.DispatchEventHandler] for SLAManagement for service com.travellinck.TransactionUtility
+INFO  15:05:18.534 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.TransactionUtility, instance:1], [groups: jboss], total services active: 5
+INFO  15:05:18.541 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.TransactionUtility]
+INFO  15:05:18.548 org.rioproject.monitor.services - [com.travellinck/com.travellinck.TransactionUtility] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+DEBUG 15:05:18.598 c.t.i.j.t.i.BasicTransactionUtility - Received handle to transaction manager: org.rioproject.associations.Association@6e226250
+INFO  15:05:18.599 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.TransactionUtility:1
+INFO  15:05:24.122 o.rioproject.cybernode.CybernodeImpl - Instantiated [com.travellinck/com.travellinck.Space, instance:1], [groups: jboss], total services active: 6
+WARN  15:05:24.132 o.r.cybernode.ServiceAdvertiser - Unable to obtain the OperationalStringEntry for com.travellinck.Space
+WARN  15:05:24.135 o.r.cybernode.ServiceAdvertiser - Unable to obtain the Host entry for com.travellinck.Space
+DEBUG 15:05:24.144 org.rioproject.cybernode.JSBDelegate - [com.travellinck/com.travellinck.Space, instance:1]: advertised
+INFO  15:05:24.149 o.r.monitor.tasks.ProvisionTask - Allocated [com.travellinck/com.travellinck.Space]
+INFO  15:05:24.185 org.rioproject.monitor.services - [com.travellinck/com.travellinck.Space] service provisioned, instanceId=[1], type=[DYNAMIC], have [1] service instances
+DEBUG 15:05:24.386 c.t.j.s.a.query.impl.QueryService - Received reference to space: org.rioproject.associations.AssociationProxySupport@37b02d20
+INFO  15:05:24.387 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.space.admin.Query:1
+DEBUG 15:05:24.463 c.t.c.w.p.AssociatedServicesPublisher - Publishing service(s) for new association 'com.travellinck.space.admin.Query'
+INFO  15:05:24.466 o.r.associations.AssociationMgmt - Advertise Service: com.travellinck/com.travellinck.ScheduledPublisher:1
+DEBUG 15:05:24.468 c.t.i.j.s.s.i.PublishLaterRequestHandler - Starting
+DEBUG 15:05:24.472 c.t.i.j.s.s.i.PublishLaterRequestHandler - Looking for previously scheduled tasks (shutdown/crash recovery)
+INFO  15:05:24.473 c.t.i.j.s.s.i.PublishLaterRequestHandler - Started
+DEBUG 15:05:24.475 c.t.c.w.p.p.i.ASMPublishableProxyFactory - Generating web service proxy for: interface com.travellinck.jini.space.admin.query.Query
+DEBUG 15:05:24.684 c.t.c.w.p.AssociatedServicesPublisher - Generated 1 web service adaptor(s) for: com.travellinck.space.admin.Query
+INFO  15:05:24.686 c.t.c.w.publishing.container - Publishing REST service ws.proxy.com.travellinck.jini.space.admin.query.Query@174ff977 to [http://0.0.0.0:8088/query]
+DEBUG 15:05:25.458 c.t.i.j.s.s.i.PublishLaterRequestHandler - Found ActivelyScheduledEventPublication 8b72f502-181f-441e-a8cd-fee80c01da6c, re-scheduling 
+DEBUG 15:05:25.458 c.t.i.j.s.s.i.PublishLaterRequestHandler - Scheduling to publish after 5594074542ms
+DEBUG 15:05:25.468 c.t.i.j.s.s.i.PublishLaterRequestHandler - Found ActivelyScheduledEventPublication bf8cf31d-cf21-4202-9ba9-b6bf9eb85c3a, re-scheduling 
+DEBUG 15:05:25.468 c.t.i.j.s.s.i.PublishLaterRequestHandler - Scheduling to publish after 88539ms
+INFO  15:05:25.472 c.t.i.j.s.s.i.PublishLaterRequestHandler - Shutdown/crash recovery complete (recovered 2 schedules)
+DEBUG 15:05:25.472 c.t.i.j.s.s.i.PublishLaterRequestHandler - Start processing of Scheduling requests
+INFO  15:05:55.420 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.supplier.clickatell.adaptor.handlecallback.HandleCallbackResponse = 1
+INFO  15:05:55.445 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 1
+INFO  15:05:55.454 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.infrastructure.jini.space.scheduling.impl.ActivelyScheduledEventPublication = 2
+INFO  15:05:56.150 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.communication.email.SendMailResponse = 1
+INFO  15:05:56.794 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.sms.ShortMessageEvaluation = 1
+INFO  15:05:56.867 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.web.WebEvaluation = 1
+INFO  15:05:56.884 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.supplier.clickatell.adaptor.ShortMessageExchange = 1
+INFO  15:05:56.887 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.supplier.clickatell.adaptor.ShortMessageExchange = 2
+INFO  15:05:56.974 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.ApprovalConcludedEvent = 1
+INFO  15:05:57.048 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.approval.engine.impl.evaluation.evaluator.email.EMailEvaluation = 1
+INFO  15:05:57.069 c.t.j.s.a.query.impl.QueryService - Count for com.travellinck.communication.gsm.sms.sendmessage.SendMessageResponse = 1
+DEBUG 15:06:54.046 c.t.i.j.s.s.i.PublishLaterRequestHandler - Retrieved schedule info to confirm publication: Scheduled: Schedule request: com.travellinck.approval.engine.impl.evaluation.liason.events.EvaluationResponseRequiredByReached [writeAt=Tue Jun 23 15:06:54 SAST 2015, writeAfterMS=null](scheduleRequestId=bf8cf31d-cf21-4202-9ba9-b6bf9eb85c3a)
+DEBUG 15:06:54.366 c.t.i.j.s.s.i.PublishLaterRequestHandler - PublishLaterRequestHandler: wrote to space -> EvaluationResponseRequiredByReached  (id=0a75285b-1ef1-4ca5-907b-5d2f6efeb3f4, inContextOf=f55e8fa3-4cb5-4baf-b169-c71e05088393, sourceComponent=null, createdAt=Tue Jun 23 14:56:56 SAST 2015, expireAt=Tue Jun 23 15:06:54 SAST 2015, expireAfter=null, traceId=e1166216-ab84-4993-9f85-2061e74ba9e3 (lease for 9223372036854775807ms)
+DEBUG 15:10:21.675 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  15:10:21.681 o.r.monitor.ServiceProvisioner - Cybernode-12573@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  15:10:21.688 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  15:10:21.720 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.TransactionUtility:1
+WARN  15:10:21.726 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  15:10:21.728 o.r.associations.AssociationMgmt - [com.travellinck/com.travellinck.ScheduledPublisher:1] unadvertiseOnBroken : true
+DEBUG 15:10:21.730 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopping
+INFO  15:10:21.730 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopped
+WARN  15:10:21.731 c.t.i.j.s.s.i.PublishLaterRequestHandler - Processing has been interrupted
+DEBUG 15:10:21.734 o.r.c.TransientServiceStatementManager - com.travellinck.TransactionUtility is Inactive, Removed Records
+DEBUG 15:10:21.734 c.t.i.j.s.s.i.PublishLaterRequestHandler - Request processing complete (shutdown)
+INFO  15:10:21.734 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.TransactionUtility, instance:1], total services active: 5
+INFO  15:10:21.775 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.ScheduledPublisher:1
+DEBUG 15:10:21.776 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopping
+INFO  15:10:21.777 c.t.i.j.s.s.i.PublishLaterRequestHandler - Stopped
+WARN  15:10:21.779 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:10:21.780 o.r.c.TransientServiceStatementManager - com.travellinck.ScheduledPublisher is Inactive, Removed Records
+INFO  15:10:21.780 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.ScheduledPublisher, instance:1], total services active: 2
+DEBUG 15:10:21.789 c.t.c.w.p.AssociatedServicesPublisher - Stopping
+INFO  15:10:21.789 c.t.c.w.publishing.container - Stopping
+INFO  15:10:21.801 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/WebServicePublisher:1
+WARN  15:10:21.816 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:10:21.817 o.r.c.TransientServiceStatementManager - WebServicePublisher is Inactive, Removed Records
+INFO  15:10:21.818 org.rioproject.cybernode.loader - Discarded [com.travellinck/WebServicePublisher, instance:1], total services active: 1
+INFO  15:10:21.829 o.rioproject.jsb.ServiceBeanAdapter - Destroy com.travellinck/com.travellinck.space.admin.Query:1
+WARN  15:10:21.833 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+DEBUG 15:10:21.834 o.r.c.TransientServiceStatementManager - com.travellinck.space.admin.Query is Inactive, Removed Records
+INFO  15:10:21.834 org.rioproject.cybernode.loader - Discarded [com.travellinck/com.travellinck.space.admin.Query, instance:1], total services active: 0
+INFO  15:10:21.835 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
+DEBUG 15:10:21.854 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+DEBUG 15:10:21.856 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/WebServicePublisher] to remove 
+DEBUG 15:10:21.857 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.Space] to remove 
+DEBUG 15:10:21.857 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/TransactionManager] to remove 
+DEBUG 15:10:21.858 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.TransactionUtility] to remove 
+DEBUG 15:10:21.858 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.ScheduledPublisher] to remove 
+DEBUG 15:10:21.858 o.r.m.m.PendingServiceElementManager - Dynamic-Service TestManager: There are no pending instances of [com.travellinck/com.travellinck.space.admin.Query] to remove 
+INFO  15:10:21.858 org.rioproject.monitor - OpStringManager [com.travellinck] terminated
+INFO  15:10:21.864 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  15:10:21.867 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  15:10:21.868 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor

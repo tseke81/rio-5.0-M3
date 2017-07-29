@@ -1,0 +1,77 @@
+INFO  14:05:43.200 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 14:05:43.307 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1100
+INFO  14:05:43.436 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+WARN  14:05:43.441 o.r.monitor.ProvisionMonitorImpl - The system property [org.rioproject.codeserver] has not been set, it has been resolved to: artifact:org.rioproject.monitor/monitor-proxy/5.0-M3
+INFO  14:05:43.443 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1100/jndi/rmi://10.10.7.12:1100/jmxrmi
+DEBUG 14:05:43.511 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 14:05:43.516 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 14:05:43.516 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 14:05:43.530 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 14:05:43.568 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 14:05:43.572 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: af3979b1-7249-4a22-8857-d1b261d6f3d3
+INFO  14:05:43.577 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  14:05:43.583 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+DEBUG 14:05:43.653 o.r.m.peer.ProvisionMonitorPeer - Import OperationalStrings from: address=10.10.7.12, id=-4606582818923889626
+DEBUG 14:05:43.699 o.r.m.peer.ProvisionMonitorPeer - No backup yet, try assignment
+DEBUG 14:05:43.709 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor backup info :
+	count=0, address=10.10.7.12, id=-4606582818923889626
+DEBUG 14:05:43.713 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: ProvisionMonitor updated info :
+	count=1, address=10.10.7.12, id=-4606582818923889626, 
+DEBUG 14:05:43.920 o.r.monitor.ServiceProvisioner - Registered new Cybernode-23562@uat.travellinck.com, count [1]
+INFO  14:05:43.986 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 14:05:44.012 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1100
+INFO  14:05:44.015 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 14:05:44.206 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 14:05:44.213 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 14:05:44.231 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  14:05:44.232 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-23894@uat.travellinck.com
+DEBUG 14:05:44.245 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 6de698c2-4063-4fd1-986d-ad9b0c96712e
+INFO  14:05:44.245 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 14:05:44.247 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+WARN  14:05:44.301 org.rioproject.start - service.creation.unknown
+java.net.BindException: Could not start Webster.
+	at org.rioproject.tools.webster.Webster.initialize(Webster.java:281) ~[na:na]
+	at org.rioproject.tools.webster.Webster.<init>(Webster.java:209) ~[na:na]
+Wrapped by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_07]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_07]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_07]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_07]
+	at com.sun.jini.start.NonActivatableServiceDescriptor.create(NonActivatableServiceDescriptor.java:674) ~[start-2.2.1.jar:na]
+	at org.rioproject.start.ServiceStarter.create(ServiceStarter.java:227) ~[rio-start-5.0-M3.jar:5.0-M3]
+	at org.rioproject.start.ServiceStarter.doStart(ServiceStarter.java:316) ~[rio-start-5.0-M3.jar:5.0-M3]
+	at org.rioproject.start.ServiceStarter.main(ServiceStarter.java:408) ~[rio-start-5.0-M3.jar:5.0-M3]
+WARN  14:05:44.302 org.rioproject.start - service.creation.unknown.detail 0 [, /opt/rio/policy/policy.all, /opt/rio/lib/webster-5.0-M3.jar, org.rioproject.tools.webster.Webster, [-port, 9010, -roots, /opt/rio/lib-dl;/opt/rio/lib;/opt/rio/deploy;/home/jboss/.m2/repository, -bindAddress, 10.10.7.12], com.sun.jini.start.NonActivatableServiceDescriptor$1@76088b4b, BasicProxyPreparer[]]
+DEBUG 14:05:44.352 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@34f111f2
+DEBUG 14:05:44.353 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@5453ec1e
+DEBUG 14:05:44.878 o.r.monitor.ServiceProvisioner - Registered new Cybernode-23894@uat.travellinck.com, count [2]
+DEBUG 14:05:44.886 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:05:44.889 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [2] ProvisionMonitor instances
+DEBUG 14:05:44.904 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  14:05:44.904 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [2] ProvisionMonitor instances
+DEBUG 14:05:49.248 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+DEBUG 14:11:20.702 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+INFO  14:11:20.703 o.r.monitor.ServiceProvisioner - Cybernode-23562@uat.travellinck.com @ 10.10.7.12 removed, count now [1]
+INFO  14:11:20.703 o.r.monitor.ServiceProvisioner - Cybernode-23894@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  14:11:20.728 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  14:11:20.757 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  14:11:20.759 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor
+DEBUG 14:11:20.766 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  14:11:20.769 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [1] ProvisionMonitor instances
+WARN  14:11:20.772 o.r.cybernode.ServiceConsumer - ProvisionLeaseManager: could not drop lease java.rmi.NoSuchObjectException: no such object in table
+INFO  14:11:20.773 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  14:11:20.774 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification

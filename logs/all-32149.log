@@ -1,0 +1,49 @@
+INFO  13:52:14.083 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 13:52:14.482 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1100
+INFO  13:52:14.629 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  13:52:14.636 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1100/jndi/rmi://10.10.7.12:1100/jmxrmi
+DEBUG 13:52:14.706 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 13:52:14.712 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 13:52:14.712 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 13:52:14.719 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 13:52:14.787 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 13:52:14.791 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: 71a67ab5-d9b4-43d1-a703-2252cf59f3dc
+INFO  13:52:14.796 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  13:52:14.800 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  13:52:15.202 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 13:52:15.357 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1100
+INFO  13:52:15.361 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 13:52:15.611 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 13:52:15.618 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 13:52:15.637 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  13:52:15.638 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-32149@uat.travellinck.com
+DEBUG 13:52:15.650 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: eea8b988-340a-4cd2-b774-ab2800017676
+INFO  13:52:15.651 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 13:52:15.652 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 13:52:15.738 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@c048e8ea
+DEBUG 13:52:16.301 o.r.monitor.ServiceProvisioner - Registered new Cybernode-32149@uat.travellinck.com, count [1]
+DEBUG 13:52:16.312 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  13:52:16.314 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 13:52:20.653 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+DEBUG 14:12:44.695 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+INFO  14:12:44.698 o.r.monitor.ServiceProvisioner - Cybernode-32149@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  14:12:44.753 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  14:12:44.754 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
+DEBUG 14:12:44.782 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+INFO  14:12:44.790 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  14:12:44.811 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  14:12:44.812 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor

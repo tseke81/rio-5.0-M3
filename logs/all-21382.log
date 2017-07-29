@@ -1,0 +1,50 @@
+INFO  17:50:11.925 o.r.monitor.ProvisionMonitorImpl - 
+____ _ ____
+|__/ | |  |   Provision Monitor
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 17:50:12.321 o.r.monitor.ProvisionMonitorImpl - Bound to RMI Registry on port=1099
+INFO  17:50:12.443 o.r.m.selectors.LeastActiveSelector - Created LeastActiveSelector
+INFO  17:50:12.449 org.rioproject.jmx.JMXConnectionUtil - JMXServiceURL=service:jmx:rmi://10.10.7.12:1099/jndi/rmi://10.10.7.12:1099/jmxrmi
+DEBUG 17:50:12.517 o.r.monitor.ProvisionMonitorImpl - Configured to scan for OAR deployments every 30 seconds
+DEBUG 17:50:12.521 o.r.m.h.FileSystemOARDeployHandler - OARs will be scanned for in this directory: /opt/rio-5.0-M3/deploy
+DEBUG 17:50:12.521 o.r.m.h.FileSystemOARDeployHandler - OARs will be installed into this directory: /opt/rio-5.0-M3/deploy
+DEBUG 17:50:12.536 o.r.m.peer.ProvisionMonitorPeer - ProvisionMonitorPeer: No backup
+DEBUG 17:50:12.594 o.r.monitor.ProvisionMonitorImpl - initialOpStrings=[], initialOpStringLoadDelay=5000
+DEBUG 17:50:12.599 o.r.monitor.ProvisionMonitorImpl - Created new ServiceID: be077897-1f2f-45ed-a50d-af95ef87b1b1
+INFO  17:50:12.603 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+INFO  17:50:12.608 o.r.monitor.ProvisionMonitorImpl - Started Provision Monitor [jboss]
+INFO  17:50:13.002 o.rioproject.cybernode.CybernodeImpl - 
+____ _ ____
+|__/ | |  |   Cybernode
+|  \ | |__|   Version: 5.0-M3, Build: 20130709-1639
+
+Rio Home: /opt/rio
+Java version: 1.7.0_07, vendor: Oracle Corporation
+Java home: /usr/java/jdk1.7.0_07/jre
+DEBUG 17:50:13.192 o.rioproject.cybernode.CybernodeImpl - Bound to RMI Registry on port=1099
+INFO  17:50:13.196 o.r.watch.ThreadDeadlockMonitor - ThreadMXBean set, monitoring current JVM for thread deadlocks
+DEBUG 17:50:13.407 o.rioproject.cybernode.CybernodeImpl - Will update discovered Provision Monitors with resource utilization details at intervals of 1 minute
+DEBUG 17:50:13.414 org.rioproject.cybernode.Environment - Using ServiceStatementManager: org.rioproject.cybernode.TransientServiceStatementManager
+DEBUG 17:50:13.432 o.rioproject.cybernode.CybernodeImpl - serviceTerminationOnUnregister=true
+INFO  17:50:13.433 o.rioproject.cybernode.CybernodeImpl - Enlist with ProvisionManagers as an instantiation resource using: Cybernode-21382@uat.travellinck.com
+DEBUG 17:50:13.445 o.rioproject.cybernode.CybernodeImpl - Created new ServiceID: 11414aea-bbf8-452e-9775-df006cb71c47
+INFO  17:50:13.445 o.rioproject.cybernode.CybernodeImpl - Started Cybernode [jboss]
+DEBUG 17:50:13.446 o.rioproject.cybernode.CybernodeImpl - initialServiceLoadDelay=5000
+DEBUG 17:50:13.510 o.r.cybernode.ServiceConsumer - ProvisionManager discovered org.rioproject.monitor.ProvisionMonitorProxy$ConstrainableProvisionMonitorProxy@eba2235e
+DEBUG 17:50:14.069 o.r.monitor.ServiceProvisioner - Registered new Cybernode-21382@uat.travellinck.com, count [1]
+DEBUG 17:50:14.080 o.r.cybernode.ServiceConsumer - Established ProvisionManager registration
+INFO  17:50:14.081 o.r.cybernode.ServiceConsumer - Registered to a ProvisionManager, now connected to [1] ProvisionMonitor instances
+DEBUG 17:50:18.447 o.rioproject.cybernode.CybernodeImpl - Loading [0] initialServices
+DEBUG 17:51:44.781 o.r.monitor.ProvisionMonitorImpl - ProvisionMonitor: destroy() notification
+INFO  17:51:44.782 o.r.monitor.ServiceProvisioner - Cybernode-21382@uat.travellinck.com @ 10.10.7.12 removed, count now [0]
+INFO  17:51:44.792 o.rioproject.jsb.ServiceBeanAdapter - Destroy System-Core/Provision Monitor:0
+WARN  17:51:44.816 o.rioproject.jsb.ServiceBeanAdapter - UnexportTask interrupted
+INFO  17:51:44.819 o.r.monitor.ProvisionMonitorImpl - Destroyed Monitor
+DEBUG 17:51:44.824 o.r.cybernode.ServiceConsumer - Canceling all event registrations to Provisioner instances
+WARN  17:51:44.826 o.r.cybernode.ServiceConsumer - ProvisionLeaseManager: could not drop lease java.rmi.NoSuchObjectException: no such object in table
+INFO  17:51:44.826 o.r.cybernode.ServiceConsumer - Dropping ProvisionManager, now connected to [0] ProvisionMonitor instances
+INFO  17:51:44.827 o.rioproject.cybernode.CybernodeImpl - Cybernode: destroy() notification
